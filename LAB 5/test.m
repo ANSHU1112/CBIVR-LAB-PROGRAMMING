@@ -1,0 +1,9 @@
+N=100;
+M=10;
+e1=2;
+e2=5;
+c1=3;
+c2=7;
+X1 = c1*randn(N,M)+e1;
+X2 = c2*randn(N,M)+e2;
+d = bhattacharyya(X1,X2);
